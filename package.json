@@ -1,0 +1,51 @@
+{
+  "name": "tiletopia",
+  "author": "Norbert Balaž",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/norbraet/tiletopia#readme",
+  "keywords": [],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norbraet/tiletopia.git"
+  },
+  "scripts": {
+    "type-check": "vue-tsc --noEmit",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext .ts,.tsx,.vue --fix"
+  },
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/norbraet/tiletopia/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.42.0",
+    "@typescript-eslint/parser": "^8.42.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/test-utils": "^2.4.6",
+    "eslint": "^9.35.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-vue": "^10.4.0",
+    "jsdom": "^26.1.0",
+    "postcss": "^8.5.6",
+    "postcss-nested": "^7.0.2",
+    "postcss-simple-vars": "^7.0.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.4",
+    "vitest": "^3.2.4",
+    "vue": "3.5.21",
+    "vue-tsc": "^3.0.6"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.21"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
+  }
+}
