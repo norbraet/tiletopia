@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "VueDndLab",
-      fileName: (format) => `vue-dnd-lab.${format}.js`,
+      name: "Tiletopia",
+      fileName: (format) => `tiletopia.${format}.js`,
     },
     rollupOptions: {
       external: ["vue"],
